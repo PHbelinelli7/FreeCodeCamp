@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey-form</title>
+  <link rel="stylesheet" href="5.Projeto de certificação - Formulário de pesquisa.css">
+</head>
+
+<body>
+  <form id="survey-form">
+    <h1 id="title">Pesquisa sobre futebol</h1>
+    <p id="description">Uma breve pesquisa sobre a torcidas dos times de futebol da série A do Campeonato Brasileiro 2023 !</p>
+    <fieldset id="dados">
+      <label id="name-label">
+        <input id="name" type="text" placeholder="Seu Nome" required />Usuario
+      </label>
+      <label id="email-label">
+        <input id="email" type="email" placeholder="Seu Email" required />E-mail
+      </label>
+      <label id="number-label">
+        <input id="number" type="number" min="13" max="100" placeholder="Ex. 18" required />Idade
+      </label>
+
+      <p>Qual time você torce?</p>
+      <select id="dropdown">
+        <option value="">(Escolha uma opção)</option>
+        <option value="1">América-MG</option>
+        <option value="2">Athletico-PR</option>
+        <option value="3">Atlético-MG</option>
+        <option value="4">Bahia</option>
+        <option value="5">Botafogo</option>
+        <option value="6">Bragantino</option>
+        <option value="7">Corinthians</option>
+        <option value="8">Coritiba</option>
+        <option value="9">Cruzeiro</option>
+        <option value="10">Cuiabá</option>
+        <option value="11">Flamengo</option>
+        <option value="12">Fluminense</option>
+        <option value="13">Fortaleza</option>
+        <option value="14">Goiás</option>
+        <option value="15">Grêmio</option>
+        <option value="16">Internacional</option>
+        <option value="17">Palmeiras</option>
+        <option value="18">Santos</option>
+        <option value="19">São Paulo</option>
+        <option value="20">Vasco da Gama</option>
+      </select>
+
+      <p>Você simpatiza com um segundo time?</p>
+      <label for="segundo-time">
+        <input id="Sim" type="radio" value="Sim" name="Sim" />Sim
+      </label>
+      <label for="segundo-time">
+        <input id="Não" type="radio" value="Não" name="Sim" />Não
+      </label>
+      <label for="segundo-time">
+        <input id="Jamais" type="radio" value="Jamais" name="Sim" />Jamais
+      </label>
+
+      <p>Marque o segundo time que você torce ou simpatiza.</p>
+      <select id="referencia">
+        <option value=""></option>
+        <option value="1">América-MG</option>
+        <option value="2">Athletico-PR</option>
+        <option value="3">Atlético-MG</option>
+        <option value="4">Bahia</option>
+        <option value="5">Botafogo</option>
+        <option value="6">Bragantino</option>
+        <option value="7">Corinthians</option>
+        <option value="8">Coritiba</option>
+        <option value="9">Cruzeiro</option>
+        <option value="10">Cuiabá</option>
+        <option value="11">Flamengo</option>
+        <option value="12">Fluminense</option>
+        <option value="13">Fortaleza</option>
+        <option value="14">Goiás</option>
+        <option value="15">Grêmio</option>
+        <option value="16">Internacional</option>
+        <option value="17">Palmeiras</option>
+        <option value="18">Santos</option>
+        <option value="19">São Paulo</option>
+        <option value="20">Vasco da Gama</option>
+      </select>
+
+      <p>Quem vai ser o campeão em 2023? Marque uma opção!</p>
+      <p>Quem vai ser o campeão em 2023? Marque uma opção!</p>
+<label for="america-mg">
+  <input id="america-mg" type="checkbox" value="america-mg" name="campeao" />América-MG
+</label>
+<label for="athletico-pr">
+  <input id="athletico-pr" type="checkbox" value="athletico-pr" name="campeao" />Athletico-PR
+</label>
+<label for="atletico-mg">
+  <input id="atletico-mg" type="checkbox" value="atletico-mg" name="campeao" />Atlético-MG
+</label>
+<!-- Adicione os demais times abaixo -->
+<label for="bahia">
+  <input id="bahia" type="checkbox" value="bahia" name="campeao" />Bahia
+</label>
+<label for="botafogo">
+  <input id="botafogo" type="checkbox" value="botafogo" name="campeao" />Botafogo
+</label>
+<label for="bragantino">
+  <input id="bragantino" type="checkbox" value="bragantino" name="campeao" />Bragantino
+</label>
+<label for="corinthians">
+  <input id="corinthians" type="checkbox" value="corinthians" name="campeao" />Corinthians
+</label>
+<label for="coritiba">
+  <input id="coritiba" type="checkbox" value="coritiba" name="campeao" />Coritiba
+</label>
+<label for="cruzeiro">
+  <input id="cruzeiro" type="checkbox" value="cruzeiro" name="campeao" />Cruzeiro
+</label>
+<label for="cuiaba">
+  <input id="cuiaba" type="checkbox" value="cuiaba" name="campeao" />Cuiabá
+</label>
+<label for="flamengo">
+  <input id="flamengo" type="checkbox" value="flamengo" name="campeao" />Flamengo
+</label>
+<label for="fluminense">
+  <input id="fluminense" type="checkbox" value="fluminense" name="campeao" />Fluminense
+</label>
+<label for="fortaleza">
+  <input id="fortaleza" type="checkbox" value="fortaleza" name="campeao" />Fortaleza
+</label>
+<label for="goias">
+  <input id="goias" type="checkbox" value="goias" name="campeao" />Goiás
+</label>
+<label for="gremio">
+  <input id="gremio" type="checkbox" value="gremio" name="campeao" />Grêmio
+</label>
+<label for="internacional">
+  <input id="internacional" type="checkbox" value="internacional" name="campeao" />Internacional
+</label>
+<label for="palmeiras">
+  <input id="palmeiras" type="checkbox" value="palmeiras" name="campeao" />Palmeiras
+</label>
+<label for="santos">
+  <input id="santos" type="checkbox" value="santos" name="campeao" />Santos
+</label>
+<label for="saopaulo">
+  <input id="saopaulo" type="checkbox" value="saopaulo" name="campeao" />São Paulo
+</label>
+<label for="vasco">
+  <input id="vasco" type="checkbox" value="vasco" name="campeao" />Vasco da Gama
+</label>
+
+      <p>Algum Comentário?</p>
+      <textarea id="comentario" placeholder="Coloque o seu comentário aqui" name="comentario"></textarea>
+
+      <input id="submit" type="submit" value="submit">
+    </fieldset>
+  </form>
+</body>
+</html>
